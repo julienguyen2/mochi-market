@@ -1,0 +1,84 @@
+/* Your styles go here */
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+
+.jumbotron {
+    background: url(https://cdn.pixabay.com/photo/2021/03/19/02/03/bread-6106348_1280.jpg);
+    background-position: 0 -400px;
+    background-size: cover;
+    padding: 4rem 2rem;
+}
+
+a.navbar-brand {
+    margin-right: 0rem;
+}
+
+div.youtube-embed {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+div.youtube-embed iframe {
+    position: absolute;
+    border: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    font-size: large;
+    color: white;
+    background-color: #C19A6B;
+    margin: 0.25rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+}
+
+div.socialMedia {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+div.socialMedia>p {
+    display: inline;
+    float: right;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+ul.socialLinks {
+    list-style: none;
+    float: left;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+ul.socialLinks li {
+    display: inline;
+}
+
+ul.socialLinks li a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+div.row {
+    padding-bottom: 1.5rem;
+}
+
+h3 {
+    color: #875f91;
+    font-weight: bold;
+}
+
+h4 {
+    color: #875f91;
+    font-weight: normal;
+}

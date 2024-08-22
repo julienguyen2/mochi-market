@@ -1,0 +1,101 @@
+<!-- Class Project, CS 2350 | Julie Nguyen -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Class Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./stylesheets/pastries.css" />
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#563c5c">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="./index.html">The Mochi Market <i
+                    class="bi bi-suit-heart-fill text-dark"></i></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="./aboutUs.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="./pastries.html" class="nav-link">Pastries</a></li>
+                    <li class="nav-item"><a href="./desserts.html" class="nav-link">Desserts</a></li>
+                    <li class="nav-item"><a href="./locations.html" class="nav-link">Locations</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3 text-white">Pastries & Baked Goods</h1>
+            <p class="text-white">Inspired by many different cultures from East and Southeast Asia, we’ve come up with a
+                small menu for you to choose as a Mochi Market customer. Each of our pastries are made fresh from the
+                oven daily. We make sure our pastries are warm enough for you to taste.</p>
+            <hr class="my-4 text-white">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container p-5">
+        <!-- Mobile View -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row row-cols-3">
+                    <div class="col" id="p1"></div>
+                    <div class="col" id="p2"></div>
+                    <div class="col" id="p3"></div>
+                </div>
+                <!-- Desktop View -->
+                <div class="d-none d-md-block">
+                    <div class="row row-cols-3">
+                        <div class="col" id="p4"></div>
+                        <div class="col" id="p5"></div>
+                        <div class="col" id="p6"></div>
+                    </div>
+                    <div class="row row-cols-3">
+                        <div class="col" id="p7"></div>
+                        <div class="col" id="p8"></div>
+                        <div class="col" id="p9"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mainPastry">
+                <h4><i class="bi bi-suit-heart-fill"></i> Select a pastry for more details!</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="p-3 pb-5 text-light" style="background-color:#563c5c">
+        <div class="socialMedia">
+            <h5>
+                <ul class="socialLinks">
+                    <li> Social Media </li>
+                    <li>
+                        <a href="https://www.instagram.com/" class="nav-link"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" class="nav-link"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" class="nav-link"><i class="bi bi-twitter"></i></a>
+                    </li>
+                </ul>
+            </h5>
+            <p>&copy; All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./javascripts/pastries.js"></script>
+</body>
+
+</html>

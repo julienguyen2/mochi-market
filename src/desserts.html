@@ -1,0 +1,101 @@
+<!-- Class Project, CS 2350 | Julie Nguyen -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Class Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="" />
+
+  <link rel="stylesheet" href="./stylesheets/desserts.css" />
+</head>
+
+<body>
+  <!-- Top Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light" style="background-color:#915F6D">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="./index.html">The Mochi Market <i
+          class="bi bi-suit-heart-fill text-dark"></i></a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="./aboutUs.html" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="./pastries.html" class="nav-link">Pastries</a></li>
+          <li class="nav-item"><a href="./desserts.html" class="nav-link">Desserts</a></li>
+          <li class="nav-item"><a href="./locations.html" class="nav-link">Locations</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3 text-white">Desserts & Sweet Drinks</h1>
+      <p class="text-white">Many of our desserts and drinks are made fresh and decorated with delicacy. The Mochi Market
+        strives to provide not only savory, but also sweet tastes for our customers. Take a look at what we offer below,
+        and enjoy browsing our menu!</p>
+      <hr class="my-4 text-white">
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container p-5">
+    <!-- Mobile View -->
+    <div class="row">
+      <div class="col-md-6 mainDessert">
+        <h4>Select a dessert for more details! <i class="bi bi-suit-heart-fill"></i></h4>
+      </div>
+      <div class="col-md-6">
+        <div class="row row-cols-3">
+          <div class="col" id="d1"></div>
+          <div class="col" id="d2"></div>
+          <div class="col" id="d3"></div>
+        </div>
+        <!-- Desktop View -->
+        <div class="d-none d-md-block">
+          <div class="row row-cols-3">
+            <div class="col" id="d4"></div>
+            <div class="col" id="d5"></div>
+            <div class="col" id="d6"></div>
+          </div>
+          <div class="row row-cols-3">
+            <div class="col" id="d7"></div>
+            <div class="col" id="d8"></div>
+            <div class="col" id="d9"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="p-3 pb-5 text-light" style="background-color:#915F6D">
+    <div class="socialMedia">
+      <h5>
+        <ul class="socialLinks">
+          <li> Social Media </li>
+          <li>
+            <a href="https://www.instagram.com/" class="nav-link"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" class="nav-link"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/" class="nav-link"><i class="bi bi-twitter"></i></a>
+          </li>
+        </ul>
+      </h5>
+      <p>&copy; All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="./javascripts/desserts.js"></script>
+</body>
+
+</html>

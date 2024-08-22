@@ -5,7 +5,7 @@ Mochi Market is a vibrant and user-friendly website for a fictional Asian fusion
 Check out the live demo of [Mochi Market](https://tranquil-stroopwafel-3590a7.netlify.app/).
 
 ## Tools & Technologies
-- Frontend: HTML, CSS, JavaScript, Bootstrap
-- Backend: Node.js
-- Version Control: Git, GitHub
-- Programming Environment: Visual Studio Code
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: Node.js
+- **Version Control**: Git, GitHub
+- **Programming Environment**: Visual Studio Code
